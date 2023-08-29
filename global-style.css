@@ -1,0 +1,111 @@
+/* Configurações de reset na pagina*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+
+  background: linear-gradient(315deg, #C2E9FB 0%, #A1C4FD 100%);
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+}
+
+body,
+button,
+input{
+  font-family: 'DM Sans', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+/* Configurações da screeb 1 na pagina*/
+.m-centralize {
+  margin-top: -12rem;
+}
+.m-centralize > div{
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.m-centralize h1 {
+  color: #34355B;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.m-centralize p {
+  color: rgba(52, 53, 91, 0.80);
+  line-height: 2.4rem;
+}
+
+.m-centralize form{
+  display: flex;
+  margin: 0 auto;
+
+  margin-top: 2.4rem;
+}
+.m-centralize form button {
+  border: 0;
+  border-radius: 0px 4px 4px 0px;
+  background:  #7879F1;
+
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  padding: 1.6rem;
+  max-width: 8.2rem;
+
+  cursor: pointer;
+}
+.m-centralize input{
+  border: 0;
+  border-radius: 4px 0px 0px 4px;
+  background: #DCE2E9;
+
+  padding: 1.6rem;
+  max-width: 6.5rem;
+}
+
+.m-centralize .hide{
+  display: none;
+}
+
+/* Screen 2 */
+.screen2 button {
+  font-weight: 700;
+  color: #fff;
+
+  border: 0;
+  border-radius: 4px;
+  background: #7879F1;
+
+  padding: 1.6rem;
+  margin: 3.2rem auto 0;
+
+  max-width: 16rem;
+  max-height: 5.3rem;
+
+  cursor: pointer;
+
+  transition: background .3s;
+}
+.screen2 button:hover{
+  background: #5e5ebb
+}
